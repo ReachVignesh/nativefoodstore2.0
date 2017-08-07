@@ -14,4 +14,4 @@ $_['text_account']      = 'My Account';
 $_['text_order']        = 'Order History';
 $_['text_wishlist']     = 'Wish List';
 $_['text_newsletter']   = 'Newsletter';
-$_['text_powered']      = 'Coded with &#10084; By <a href="http://www.nativefoodstore.com">nativefoodstore</a><br /> %s &copy; %s';
+$_['text_powered']      = 'Coded with &#10084; by <a href="https://www.nativefoodstore.com">Native Food Store</a><br/> %s &copy; %s';
