@@ -314,9 +314,9 @@ class ModelCheckoutOrder extends Model {
 				// Stock subtraction
 				$order_product_query = $this->db->query("SELECT * FROM " . DB_PREFIX . "order_product WHERE order_id = '" . (int)$order_id . "'");
 
-				//Code for stock alert email when product is less than 2
+//Code for stock alert email when product is less than 2
 				$qry = $this->db->query("SELECT quantity, model FROM " . DB_PREFIX . "product WHERE product_id = '" . (int)$product['product_id'] . "'");
-               if ($qry->row['quantity'] [color=#FF0000][b]==[/b][/color] 2) {
+               if ($qry->row['quantity'] < 2) {
                $mail = new Mail($this->config->get('config_mail_protocol'), $this->config->get('config_smtp_host'), $this->config->get('config_smtp_username'), html_entity_decode($this->config->get('config_smtp_password'), ENT_QUOTES, 'UTF-8'), $this->config->get('config_smtp_port'), $this->config->get('config_smtp_timeout'));                   
 $mail->setTo($this->config->get('config_email'));
                   $mail->setFrom($this->config->get('config_email'));
@@ -326,12 +326,10 @@ $mail->setTo($this->config->get('config_email'));
                   $mail->send();
                }
 
-
 				foreach ($order_product_query->rows as $order_product) {
 					$this->db->query("UPDATE " . DB_PREFIX . "product SET quantity = (quantity - " . (int)$order_product['quantity'] . ") WHERE product_id = '" . (int)$order_product['product_id'] . "' AND subtract = '1'");
-0
 					$order_option_query = $this->db->query("SELECT * FROM " . DB_PREFIX . "order_option WHERE order_id = '" . (int)$order_id . "' AND order_product_id = '" . (int)$order_product['order_product_id'] . "'");
-
+			   
 					foreach ($order_option_query->rows as $option) {
 						$this->db->query("UPDATE " . DB_PREFIX . "product_option_value SET quantity = (quantity - " . (int)$order_product['quantity'] . ") WHERE product_option_value_id = '" . (int)$option['product_option_value_id'] . "' AND subtract = '1'");
 					}
