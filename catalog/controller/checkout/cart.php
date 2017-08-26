@@ -281,6 +281,8 @@ class ControllerCheckoutCart extends Controller {
 
 		$json = array();
 
+		$quantity_in_cart = 0;
+
 		if (isset($this->request->post['product_id'])) {
 			$product_id = (int)$this->request->post['product_id'];
 		} else {

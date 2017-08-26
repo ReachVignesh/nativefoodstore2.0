@@ -2168,3 +2168,20 @@
 2017-08-13 2:34:17 - PHP Notice:  Undefined index: model in C:\Bitnami\wampstack-5.6.30-3\apache2\htdocs\opencart\catalog\model\checkout\order.php on line 324
 2017-08-13 2:34:17 - PHP Notice:  Undefined index: model in C:\Bitnami\wampstack-5.6.30-3\apache2\htdocs\opencart\catalog\model\checkout\order.php on line 325
 2017-08-13 2:34:17 - PHP Notice:  Error: E-Mail sender required! in C:\Bitnami\wampstack-5.6.30-3\apache2\htdocs\opencart\system\library\mail.php on line 73
+2017-08-13 3:13:53 - PHP Notice:  Undefined variable: product_id in C:\Bitnami\wampstack-5.6.30-3\apache2\htdocs\opencart\catalog\controller\checkout\cart.php on line 289
+2017-08-13 3:13:53 - PHP Notice:  Undefined variable: quantity in C:\Bitnami\wampstack-5.6.30-3\apache2\htdocs\opencart\catalog\controller\checkout\cart.php on line 295
+2017-08-13 3:13:53 - PHP Notice:  Undefined variable: product_info in C:\Bitnami\wampstack-5.6.30-3\apache2\htdocs\opencart\catalog\controller\checkout\cart.php on line 295
+2017-08-13 3:13:59 - PHP Notice:  Undefined variable: product_id in C:\Bitnami\wampstack-5.6.30-3\apache2\htdocs\opencart\catalog\controller\checkout\cart.php on line 289
+2017-08-13 3:13:59 - PHP Notice:  Undefined variable: product_id in C:\Bitnami\wampstack-5.6.30-3\apache2\htdocs\opencart\catalog\controller\checkout\cart.php on line 289
+2017-08-13 3:13:59 - PHP Notice:  Undefined variable: quantity in C:\Bitnami\wampstack-5.6.30-3\apache2\htdocs\opencart\catalog\controller\checkout\cart.php on line 295
+2017-08-13 3:13:59 - PHP Notice:  Undefined variable: product_info in C:\Bitnami\wampstack-5.6.30-3\apache2\htdocs\opencart\catalog\controller\checkout\cart.php on line 295
+2017-08-13 3:14:04 - PHP Notice:  Undefined variable: product_id in C:\Bitnami\wampstack-5.6.30-3\apache2\htdocs\opencart\catalog\controller\checkout\cart.php on line 289
+2017-08-13 3:14:04 - PHP Notice:  Undefined variable: product_id in C:\Bitnami\wampstack-5.6.30-3\apache2\htdocs\opencart\catalog\controller\checkout\cart.php on line 289
+2017-08-13 3:14:04 - PHP Notice:  Undefined variable: quantity in C:\Bitnami\wampstack-5.6.30-3\apache2\htdocs\opencart\catalog\controller\checkout\cart.php on line 295
+2017-08-13 3:14:04 - PHP Notice:  Undefined variable: product_info in C:\Bitnami\wampstack-5.6.30-3\apache2\htdocs\opencart\catalog\controller\checkout\cart.php on line 295
+2017-08-13 3:14:28 - PHP Notice:  Undefined variable: product_id in C:\Bitnami\wampstack-5.6.30-3\apache2\htdocs\opencart\catalog\controller\checkout\cart.php on line 289
+2017-08-13 3:14:28 - PHP Notice:  Undefined variable: quantity in C:\Bitnami\wampstack-5.6.30-3\apache2\htdocs\opencart\catalog\controller\checkout\cart.php on line 295
+2017-08-13 3:14:28 - PHP Notice:  Undefined variable: product_info in C:\Bitnami\wampstack-5.6.30-3\apache2\htdocs\opencart\catalog\controller\checkout\cart.php on line 295
+2017-08-13 3:14:32 - PHP Notice:  Undefined variable: product_id in C:\Bitnami\wampstack-5.6.30-3\apache2\htdocs\opencart\catalog\controller\checkout\cart.php on line 289
+2017-08-13 3:14:32 - PHP Notice:  Undefined variable: quantity in C:\Bitnami\wampstack-5.6.30-3\apache2\htdocs\opencart\catalog\controller\checkout\cart.php on line 295
+2017-08-13 3:14:32 - PHP Notice:  Undefined variable: product_info in C:\Bitnami\wampstack-5.6.30-3\apache2\htdocs\opencart\catalog\controller\checkout\cart.php on line 295
